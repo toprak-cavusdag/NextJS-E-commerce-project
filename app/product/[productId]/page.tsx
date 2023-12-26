@@ -13,7 +13,7 @@ const Detail = ({ params }: { params: DetailProps }) => {
 
   console.log(product);
   return (
-    <div>
+    <div className='w-full'>
       <DetailClient product={product} />
     </div>
   );
